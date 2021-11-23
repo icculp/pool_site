@@ -11,10 +11,10 @@ function App() {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
                 <p>
-                    Edit <code>src/App.js</code> and save to reload.
+                    Cardano Staking pool for Cody and Ian
                 </p>
                 <p>
-                    Edit <code>src/particles.json</code> to customize Particles, then save to reload.
+                    Our website will be awesome
                 </p>
                 <a
                     className="App-link"
