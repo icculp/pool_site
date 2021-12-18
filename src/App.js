@@ -16,7 +16,9 @@ function App() {
                 <p>
                     Our website will be awesome
 					<br />
-					<iframe style="background: #15992b;" title="How-to iframe" src="https://stakada.io/embed/howto?pool_id=aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" width="100%" height="600" frameborder="1" scrolling="no"></iframe>
+					<iframe style={background: #15992b} title="How-to iframe" src="https://stakada.io/embed/howto?pool_id=aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" width="100%" height="600" frameborder="1" scrolling="no"></iframe>
+					<br />
+					<iframe src="https://stakada.io/embed/epoch" frameborder="1" width="100%" height="50" style={max-width:400px}></iframe>
 					<br />
 					<a href="https://cardanoscan.io/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2?tab=delegators">cardanoscan</a>
 					<br />
