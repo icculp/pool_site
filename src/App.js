@@ -17,7 +17,7 @@ function App() {
                     Our website will be awesome
 					
 					<br>
-					<a href=https://cardanoscan.io/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2?tab=delegators>cardanoscan</a>
+					<a href="https://cardanoscan.io/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2?tab=delegators">cardanoscan</a>
 					<br>
 					<a href=https://adatools.io/pools/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2>adatools</a>
 					<br>
