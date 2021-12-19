@@ -13,9 +13,9 @@ function App() {
                 <p>
                     <iframe title="info" src="https://stakada.io/embed/stats?pool_id=aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2&custom_metric_value=100%&custom_metric_caption=Awesomeness" width="100%" height="400" style={{"background":"#FFFFFF","max-width":"750px"}} frameborder="2" scrolling="no"></iframe>
 					<br />
-					<iframe style={{"background": "#FFFFFF"}} title="How-to iframe" src="https://stakada.io/embed/howto?pool_id=aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" width="100%" height="680" frameborder="1" scrolling="no"></iframe>
+					<iframe style={{"background": "#FFFFFF"}} title="How-to iframe" credit="0" src="https://stakada.io/embed/howto?pool_id=aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" width="100%" height="680" frameborder="1" scrolling="no"></iframe>
 					<br />
-					<iframe title="epoch counter" src="https://stakada.io/embed/epoch" frameborder="2" width="100%" height="60" style={{"max-width":"400px","background":"#FFFFFF"}}></iframe>
+					<iframe title="epoch counter" src="https://stakada.io/embed/epoch" frameborder="2" width="100%" height="60" style={{"max-width":"750px","background":"#FFFFFF"}}></iframe>
 					<br />
 					<a href="https://cardanoscan.io/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2?tab=delegators" target="_blank" className="App-link" rel="noopener noreferrer">cardanoscan</a>
 					<br />
