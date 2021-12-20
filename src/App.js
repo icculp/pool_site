@@ -1,8 +1,47 @@
 import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import Particles from "react-tsparticles";
 import logo from './logo.svg';
 import './App.css';
 import particlesOptions from "./particles.json";
+
+
+function ContactForm() {
+  const [state, handleSubmit] = useForm("mpzbznvg");
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
+  return (
+      <form onSubmit={handleSubmit}>
+      <label htmlFor="email">
+        Email Address
+      </label>
+      <input
+        id="email"
+        type="email" 
+        name="email"
+      />
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+      <textarea
+        id="message"
+        name="message"
+      />
+      <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+      <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
+  );
+}
+
 
 function App() {
     return (
@@ -24,6 +63,9 @@ function App() {
 					<a href="https://pooltool.io/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2/delegators" target="_blank" className="App-link" rel="noopener noreferrer">pooltool</a>
 					<br />
 					<a href="https://adapools.org/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" target="_blank" className="App-link" rel="noopener noreferrer">adapools</a>
+					<br />
+					<ContactForm />
+					<br />
                 </p>
             </header>
         </div>
