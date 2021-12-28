@@ -65,7 +65,7 @@ function App() {
                     <br />
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/R_3JLGjUrME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br />
-                    <h2>Third Party Pool Info</h2>
+                    <h3>Third Party Pool Info</h3>
                     <a href="https://cardanoscan.io/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2?tab=delegators" target="_blank" className="App-link" rel="noopener noreferrer">cardanoscan</a>
                     <br />
                     <a href="https://adatools.io/pools/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" target="_blank" className="App-link" rel="noopener noreferrer">adatools</a>
