@@ -32,7 +32,7 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
-        placeholder="Send us a message! Add your email above if you'd like a reply."
+        placeholder="Send us a message!"
       />
       <ValidationError 
         prefix="Message" 
