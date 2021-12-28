@@ -13,7 +13,6 @@ function ContactForm() {
   }
   return (
       <form onSubmit={handleSubmit}>
-      <br />
       <input
         id="email"
         type="email" 
