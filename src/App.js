@@ -58,9 +58,9 @@ function App() {
                     <br />
                     <iframe title="epoch counter" src="https://stakada.io/embed/epoch" frameborder="0" width="100%" height="60" style={{"max-width":"750px"}} credits="0"></iframe>
                     <br />
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xX4lf11H5Oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" src="https://www.youtube.com/embed/xX4lf11H5Oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br />
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/R_3JLGjUrME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" src="https://www.youtube.com/embed/R_3JLGjUrME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br />
                     <h4>Third Party Pool Info:</h4>
                     <a href="https://cardanoscan.io/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2?tab=delegators" target="_blank" className="App-link" rel="noopener noreferrer">cardanoscan</a>
