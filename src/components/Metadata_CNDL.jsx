@@ -15,12 +15,12 @@ let metadata = {
 
 
 function Metadata_CNDL() {
-  return (
-    <div className="Metadata_CNDL">
-    <JSONPretty id="json-pretty" data={metadata}></JSONPretty>
-
-    </div>
-  );
-}
-
+    return (
+      <div className="Metadata_CNDL">
+      <JSONPretty id="json-pretty" data={metadata}></JSONPretty>
+  
+      </div>
+    );
+  }
+  
 export default Metadata_CNDL;
