@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand" style={{"backgroundColor": "#ffffff", "opacity": "0.5"}} >
+      <nav className="navbar navbar-expand" style={{"backgroundColor": "#ffffff", "opacity": "0.5", "color": "#0033ad"}} >
         <div className="container">
           <NavLink className="navbar-brand" to="/">
             Candlestake
