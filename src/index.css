@@ -22,8 +22,8 @@ code {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-      margin-top: 25px;
+      /* animation: App-logo-spin infinite 20s linear; */
+      /* margin-top: 5px; */
   }
 }
 
@@ -67,4 +67,9 @@ h4 {
 
 .color-nav {
   background-color: rgb(95, 174, 31);
+}
+
+.navbar-img {
+  height: 100px;
+ 
 }

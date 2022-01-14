@@ -9,7 +9,7 @@ function Home() {
     <div className="App">
           <Particles options={particlesOptions}/>
             <header className="App-header">
-                <img src='/logo.svg' className="App-logo" alt="logo"/>
+                <img src='/CNDL-220114-One_Color-Blue.svg' className="App-logo" alt="logo"/>
                 <p>
                   <br />
                     <iframe style={{}} title="How-to iframe" credit="0" src="https://stakada.io/embed/howto?pool_id=aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" width="100%" height="680" frameborder="0" scrolling="no" credits="0"></iframe>
