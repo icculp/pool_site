@@ -22,6 +22,8 @@ function About() {
                     <a href="https://adastat.net/pools/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" target="_blank" className="App-link" rel="noopener noreferrer">adastat</a>
 
                     <a href="https://poolpeek.com/#/pool/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" target="_blank" className="App-link" rel="noopener noreferrer">poolpeek</a>
+
+                    <a href="https://pool.pm/aa3f700fc539642a938fbcc8b0bb4a37c0fd6b5023fd412f89693aa2" target="_blank" className="App-link" rel="noopener noreferrer">pool.pm</a>
                     
                     <br />
             <h4>ICCC Pool Info (Testnet):</h4>
